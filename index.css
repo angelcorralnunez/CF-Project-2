@@ -11,9 +11,33 @@ body {
 
 main {
     flex-grow: 1;
+    margin-top: .5rem;
 }
 
 footer {
     flex-shrink: 0;
 }
 /*End Sticky Footer CSS*/
+
+.GridBG {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/assets/GridBG.png);
+    background-image: url(/assets/GridBG.png);
+    background-position: center;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* font-family: 'Londrina Shadow', sans-serif; */
+
+.heroText {
+    font-family: 'Londrina Shadow', sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: rgb(195, 255, 0);
+}
+
+.minHeight {
+    min-height: 80vh;
+}
