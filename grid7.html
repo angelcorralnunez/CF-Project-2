@@ -88,9 +88,18 @@
                    </nav>
             </header>
 
-            <main>
-                
-
+            <main class="container-fluid">
+                <div class="minHeight row row-cols-1 gy-2">
+                    <div class="col col-md-12">
+                        <article class="bg-secondary h-100 text-light p-2">Col One</article>
+                    </div>
+                    <div class="col col-md-6 order-md-last">
+                        <article class="bg-dark h-100 text-light p-2">Col Two - but ordered last</article>
+                    </div>
+                    <div class="col col-md-6">
+                        <article class="bg-secondary h-100 text-light p-2">Col Three</article>
+                    </div>
+                </div>
             </main>
 
             <footer class="bg-dark p-3">
